@@ -10,7 +10,7 @@ public class MyMethod {
        int[] initialArray;
        initialArray = new int[SIZE];
        for (int i = 0; i < initialArray.length; i++) {
-           initialArray[i] = (int) (Math.random() * 10);
+           initialArray[i] = (int) (Math.random() * SIZE);
        }
 //Задание №1 Метод возвращеющий значения после последней 4-ки
         updArr(initialArray);
